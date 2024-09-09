@@ -1,0 +1,47 @@
+/* styles.css */
+
+body {
+    background-image: url('./images/background.jpg'); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center-align text */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between elements */
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin: 0; /* Remove default margin */
+}
+
+p {
+    color: #e2e8f0;
+    margin: 0; /* Remove default margin */
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer; /* Added for better button interaction */
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
